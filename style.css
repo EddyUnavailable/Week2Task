@@ -1,0 +1,46 @@
+html {
+    background: rgb(112, 140, 199);   
+    }
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.boatBox {
+    flex: content;
+    justify-content: center;
+    width: 100vw;
+    background-color: blue;
+    position: relative;
+}
+
+#displayImage {
+    width: 100vw;
+    background-color: rgb(2, 2, 11);
+}
+
+#thumbNailContainer {   
+    left: 50%;
+    overflow-y: hidden;
+    transform: translateX(-50%);
+    position: absolute;
+    align-self: center;
+    overflow-x: hidden;
+    white-space: nowrap;
+    height: 25vh;
+    width: 70vw;
+    padding: 0;
+}
+
+#thumbNailContainer img {
+    display: inline-block;
+    overflow: hidden;
+    padding:2px;
+    max-width: 20vw;
+    height:20vh;
+}
+
+img {
+    height: 100vh;
+    width: 100vw;
+}
